@@ -6,19 +6,19 @@ while (condition) {
         {
             name: "todo",
             type: "input",
-            message: "What do you want to add in your Todo list?"
+            message: "What do you want to add in your Todo list?",
         },
         {
             name: "addMore",
             type: "confirm",
             message: "Do you want to add more tasks?",
-            default: "true"
-        }
+            default: "true",
+        },
     ]);
     todo.push(addTask.todo);
     condition = addTask.addMore;
 }
 console.log("Your todo list is:");
-for (let i in todo) {
-    console.log(`=> ${i}`);
+for (var val of todo) {
+    console.log(`=> ${val}`);
 }
