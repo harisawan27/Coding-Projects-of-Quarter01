@@ -1,0 +1,18 @@
+{
+  "name": "haris27-currency-converter",
+  "version": "1.0.0",
+  "description": "A simple currency converter app made in TypeScript using Inquirer.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Haris Awan",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
