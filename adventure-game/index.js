@@ -37,7 +37,7 @@ let player = await inquirer.prompt({
 let opponent = await inquirer.prompt({
     type: "list",
     name: "select",
-    message: "Select Your Enemy",
+    message: "Select Your Enemy:",
     choices: ["Skeleton", "Assassin", "Zombie"],
 });
 //Gather data
@@ -87,8 +87,8 @@ do {
         let ask = await inquirer.prompt({
             type: "list",
             name: "opt",
-            message: "Select Your Move",
-            choices: ["Attack!", "Drink Portion", "Run From Enemy"],
+            message: "Select Your Move:",
+            choices: ["Attack!", "Energy Drink", "Run From Enemy"],
         });
         if (ask.opt == "Attack!") {
             let num = Math.floor(Math.random() * 2);
@@ -125,8 +125,8 @@ do {
         let ask = await inquirer.prompt({
             type: "list",
             name: "opt",
-            message: "Select Your Opponent",
-            choices: ["Attack!", "Drink Portion", "Run From Enemy"],
+            message: "Select Your Move:",
+            choices: ["Attack!", "Energy Drink", "Run From Enemy"],
         });
         if (ask.opt == "Attack!") {
             let num = Math.floor(Math.random() * 2);
