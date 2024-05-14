@@ -102,7 +102,7 @@ do {
       type: "list",
       name: "opt",
       message: "Select Your Move:",
-      choices: ["Attack!", "Drink Portion", "Run From Enemy"],
+      choices: ["Attack!", "Energy Drink", "Run From Enemy"],
     });
     if (ask.opt == "Attack!") {
       let num = Math.floor(Math.random() * 2);
@@ -147,7 +147,7 @@ do {
       type: "list",
       name: "opt",
       message: "Select Your Move:",
-      choices: ["Attack!", "Drink Portion", "Run From Enemy"],
+      choices: ["Attack!", "Energy Drink", "Run From Enemy"],
     });
     if (ask.opt == "Attack!") {
       let num = Math.floor(Math.random() * 2);
